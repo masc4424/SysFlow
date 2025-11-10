@@ -1,0 +1,30 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# === Virtual Environment ===
+venv/
+.env/
+.env.bak/
+*.env
+
+# === Django ===
+staticfiles/
+media/
+
+# === React ===
+frontend/node_modules/
+frontend/build/
+
+# === VS Code / IDE ===
+.vscode/
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
